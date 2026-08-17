@@ -1,0 +1,23 @@
+- name: "priya"
+  dob: "17/55/1992"
+  mob: 12346899
+  address:
+  - flat: 104
+    type: "perment"
+    city: "bng"
+
+  - flat: 104
+    type: "cutternt"
+    city: "bng"
+
+- name: "priya"
+  dob: "17/55/1992"
+  mob: 12346899
+  address:
+  - flat: 104
+    type: "perment"
+    city: "bng"
+
+  - flat: 104
+    type: "cutternt"
+    city: "bng"

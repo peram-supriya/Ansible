@@ -1,0 +1,24 @@
+{
+    "students":[
+        { 
+
+        "firstname": "priya",
+        "dob": "17/5/1992",
+        "address":[
+        {
+            "type": "perment",
+            "flat": 24
+        },
+
+        {
+            "type": "current",
+            "flat": 26
+        }
+    ],
+
+        "skills": ["java", "c", "python"]
+    ]
+    
+    }
+}        
+        
