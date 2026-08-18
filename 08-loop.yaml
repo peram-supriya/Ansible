@@ -6,8 +6,8 @@
     ansible.builtin.package:
       msg: {{ item }}
     loop:
-    -mysql
-    -nginx
-    -zip
-    
+    - mysql
+    - nginx
+    - zip
+
 
