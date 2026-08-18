@@ -1,0 +1,10 @@
+- name: parctice loop
+  hosts: local
+  tasks:
+  - name: print loop
+    ansible.builtin.debug:
+     msg: "{{ item }}"
+    loop:
+    - priya
+    - vikky
+    - mouli
