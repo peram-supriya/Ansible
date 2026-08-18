@@ -3,5 +3,9 @@
   connection: local
   tasks:
   - name: command module test
-    ansible.builtin.command cat etc/passwrd | grep root
+    ansible.builtin.shell cat etc/passwrd | grep root
     reguster: out_command
+
+  - name: print out put
+    ansible.builtin.debug:
+      msg: "{{ out_command }}"
