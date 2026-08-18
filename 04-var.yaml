@@ -5,7 +5,7 @@
     course: "devops"
     duration: "140 hrs"
     trainer: "priya"
-  task:
+  tasks:
   - name: print variable
     ansible.builtin.debug:
       msg: "the sourse: {{ course }}, trainer is: {{ trainer }}"
