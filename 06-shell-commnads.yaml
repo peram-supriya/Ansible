@@ -1,0 +1,7 @@
+- name: ansible vs shell
+  hosts: local
+  connection: local
+  tasks:
+  ansible.builtin.command cat etc/passwrd | grep root
+  reguster: out_command
+  
