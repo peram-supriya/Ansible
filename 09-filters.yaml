@@ -9,4 +9,4 @@
       msg: "Hi priya, {{ GREETINGS | default('good moring') }}"
   - name: convert string to list
     ansible.builtin.debug:
-      msg: "{{ topics | split('') }}"
+      msg: "{{ topics | split(',') }}"
