@@ -1,5 +1,5 @@
 - name: play level var
-  host: local
+  hosts: local
   connection: local
   var:
     course: "devops"
