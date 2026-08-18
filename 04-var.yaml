@@ -1,7 +1,7 @@
 - name: play level var
   hosts: local
   connection: local
-  var:
+  vars:
     course: "devops"
     duration: "140 hrs"
     trainer: "priya"
