@@ -4,7 +4,7 @@
   tasks:
   - name: command module test
     ansible.builtin.shell cat etc/passwrd | grep root
-    reguster: out_command
+    register: out_command
 
   - name: print out put
     ansible.builtin.debug:
