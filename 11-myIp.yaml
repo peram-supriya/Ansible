@@ -6,4 +6,4 @@
   tasks:
   - name: check my ip address
     ansible.builtin.debug:
-      msg: "{{ myIP | ansible.utils.ipv4 }}"
+      msg: "{{ myIp | ansible.utils.ipv4 }}"
