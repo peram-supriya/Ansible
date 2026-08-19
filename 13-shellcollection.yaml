@@ -1,0 +1,8 @@
+- name: use shell command
+  hosts: local
+  connection: local
+  become: yes
+  tasks:
+  - name: create users
+    ansible.builtin.user:
+      name: priya
