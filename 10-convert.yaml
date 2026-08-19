@@ -1,0 +1,13 @@
+- name: convert lettrs
+  hosts: local
+  coneection: local
+  vars:
+    course: "DevOps with AWS"
+  tasks:
+  - name: convert letters to upper
+    ansible.builtin.debug:
+      msg: "{{ course | upper }}"
+
+  - name: convert letters to lower
+    ansible.builtin.debug:
+    msg: "{{ course | lower }}"
