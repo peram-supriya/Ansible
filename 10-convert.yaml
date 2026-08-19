@@ -1,6 +1,6 @@
 - name: convert lettrs
   hosts: local
-  coneection: local
+  connection: local
   vars:
     course: "DevOps with AWS"
   tasks:
