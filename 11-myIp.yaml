@@ -1,0 +1,9 @@
+- name: check ip address
+  hosts: local
+  connection: local
+  vars:
+    myIp: 246.567.890.287
+  tasks:
+  - name: check my ip address
+    ansible.builtin.debug:
+      msg: "{{ myIP | ansile.utils.ipv4}}"

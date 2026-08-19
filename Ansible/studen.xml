@@ -1,0 +1,18 @@
+<!-- student object -->
+<students>
+
+    <Studen>
+        <Firstname> ravi </Firstname>
+        <DOB> 17/05/1992 </DOB>
+        <Email> peram26@gmail.com </Email>
+        <Dressobject>
+            <permentaddress>
+                <street> nagari </street>
+            </permentaddress>
+            <currentaddress>
+                <street> puttur</street>
+            </currentaddress>
+
+        </dressobject>
+    </student>
+</students>
